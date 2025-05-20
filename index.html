@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- FontAwesome CDN -->
+  <script src="https://kit.fontawesome.com/3956b000b9.js" crossorigin="anonymous"></script>
+  <!-- LINKED EXTERNAL STYLESHEET + NEW MOBILE STYLESHEET -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" media="screen and (max-width:1024px)" href="./mobile.css">
+  <title>Loco Cafe | Welcome</title>
+</head>
+<body>  
+  <header>
+    <!-- Div Section 1A: Navigation -->
+    <nav id="navbar">
+      <div class="container nx-flex">
+        <a href="./index.html" aria-label="Loco-Cafe Home">
+          <img src="./images/cafelogo.png" 
+          alt="Loco-Cafe Logo" class="navbar-logo"></a>
+        <ul>
+          <li><a href="./index.html" class="current">Home</a></li>
+          <li><a href="./menu.html">Menu</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Div Section 1B: Hero section -->
+    <section id="hero">
+      <div class="container">
+        <div class="hero-content text-center">
+          <h1><span class="text-primary-hero">Welcome to LOCO CAFE</span></h1>
+          <p class="text-standard">Warning: May cause uncontrollable smiling, sudden cravings for caffeine, and the urge to tell strangers about our amazing cake. Enter at your own risk (of having a good time).</p>
+        </div>
+      </div>
+    </section>
+  </header>
+  
+  <!-- Div Section 2: About Section -->
+  <main id="info" class="bg-light py-3">
+    <div class="wide-container">
+      <div class="info-content">
+        <h2 class="text-center text-heading"><span class="text-primary-hero">About </span> Loco</h2>
+        <div>
+          <p>Step into Loco Cafe, a vibrant hub where lively chatter meets the aroma of freshly brewed coffee and tempting treats. Our space buzzes with an energetic yet welcoming atmosphere, perfect for sparking conversations and fueling your day.</p>
+          <p>Nestled in the heart of Moorabbin, Loco Cafe offers a convenient and cheerful spot within the local community. Whether you're a resident, a student from nearby campuses, or just passing through, find us easily for a delightful break every day of the week from 6 AM to 16 PM</p>
+          <p>Quench your thirst with our diverse selection of expertly crafted coffees, refreshing cold beverages, and satisfy those cravings with our delicious range of cakes and other tasty munchies.</p>
+        </div>
+        <div class="text-center">
+          <a class="btn" href="./menu.html">Read More</a>
+        </div>
+      </div>
+      <div class="info-img">
+        <img src="./images/about-cafe.webp" alt="cafe-outdoor">
+      </div>
+    </div>
+  </main>
+
+  <!-- Section 3: Features -->
+  <section id="features" class="text-center py-5">
+    <div class="wide-container">
+      <div class="card bg-dark">
+        <h3 class="text-standard">Exquisite Coffee Selection</h3>
+        <p>Savor the nuanced notes of our featured Jamaica Blue Mountain. Its smooth, balanced flavor and delicate aroma offer a truly exceptional coffee experience, a delightful indulgence for discerning palates.</p>
+      </div>
+      <div class="card bg-primary">
+        <h3 class="text-standard">Refreshing Mint Lemonade</h3>
+        <p>Quench your thirst with our special Mint Lemonade. A vibrant blend of zesty citrus and cool mint creates a revitalizing and perfectly balanced beverage, ideal for any sunny Melbourne afternoon.</p>
+      </div>
+      <div class="card bg-dark">
+        <h3 class="text-standard">Irresistible LocoCake Delight</h3>
+        <p>Indulge in the legendary LocoCake, a decadent creation that promises a delightful explosion of flavors and textures. Each heavenly bite is a perfect treat to accompany your favorite brew.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Div Section 4: Testimonials Section -->
+  <section id="testimonials">
+    <div class="container ty-flex">
+      <h2 class="text-lead text-center text-light">What Our Guests Say</h2>
+      <!-- NEW PARENT DIV: SETS THE FLEXBOX -->
+      <div class="testimonial-flex">
+        <div class="testimonial">
+          <img src="./images/person-1.jpg" alt="Samantha" />
+          <p>"Loco Cafe is my go-to spot! The coffee is consistently excellent, and the atmosphere is so welcoming. It's the perfect place to start my day or unwind after work. The staff are always friendly and efficient."</p>
+        </div>
+        <div class="testimonial">
+          <img src="./images/person-2.jpg" alt="Jen" />
+          <p>"I love Loco Cafe's location in Moorabbin. It's easy to pop in, and the vibe is great. Their cakes are delicious, and they have a fantastic range of drinks. A real gem in the neighborhood; I highly recommend it!"</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Div Section 5: Footer -->
+  <footer id="footer">
+    <div class="text-center">     
+       <!-- Top Footer -->
+      <div class="top-footer">
+        <h3 class="text-light text-center">Connect with Us</h3>
+        <div class="social-icons">
+          <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="./contact.html"><i class="far fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="bottom-footer container">
+        <h4>Loco Cafe &copy; 2025</h4>
+        <a class="text-footer" 
+      href="https://pixabay.com/" 
+      title="images">Images obtained via pixabay</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- FontAwesome CDN -->
+  <script src="https://kit.fontawesome.com/cfa935a88a.js" crossorigin="anonymous"></script>
+  <!-- LINKED EXTERNAL STYLESHEET + NEW MOBILE STYLESHEET -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" media="screen and (max-width:1024px)" href="./mobile.css">
+  <title>Loco Cafe | Contact</title>
+</head>
+<body>
+  <header>
+    <!-- Div Section 1A: Navigation -->
+    <nav id="navbar">
+      <div class="container nx-flex">
+        <a href="./index.html" aria-label="Loco-Cafe Home">
+          <img src="./images/cafelogo.png" 
+          alt="Loco-Cafe Logo" class="navbar-logo"></a>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./menu.html">Menu</a></li>
+          <li><a href="./contact.html" class="current">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- NEW DIV 2: Contact Section -->
+  <section id="contact-form" class="py-2">
+    <div class="container">
+      <h1 class="text-heading"><span class="text-primary-hero">Join the</span> Loco Chatter!</h1>
+      <p>Spill the beans! Fill out the form to vibe with us.</p>
+      <form action="#">
+        <!-- INPUT GROUP 1: NAME -->
+        <div class="input-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name">
+        </div>
+        <!-- INPUT GROUP 2: EMAIL -->
+        <div class="input-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email">
+        </div>
+        <!-- INPUT GROUP 3: MESSAGE -->
+        <div class="input-group">
+          <label for="message">Message:</label>
+          <textarea id="message"></textarea>
+        </div>
+        <!-- INPUT 4: SUBMIT BUTTON -->
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+  <div class="map-container">
+    <h2 class="text-heading">Find <span class="text-primary-hero">Us</span></h2>
+    <img src="./images/cafe-location-moorabbin.webp" alt="Loco Cafe Location Map">
+  </div>
+
+
+  <!-- NEW DIV 3: Contact Cards Section -->
+  <section id="contact-info" class="text-center bg-dark1 py-1">
+    <div class="container">
+      <div class="card">
+        <i class="fas fa-hotel fa-3x"></i>
+        <h3 class="text-standard">Location</h3>
+        <p>472 South Rd, Moorabbin VIC</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-phone fa-3x"></i>
+        <h3 class="text-standard">Phone Number</h3>
+        <p>+61 999 000 999</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-envelope fa-3x"></i>
+        <h3 class="text-standard">Email Address</h3>
+        <p>contact@lococafe.com</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Div Section 4: Footer -->
+  <footer id="footer">
+    <div class="text-center">     
+       <!-- Top Footer -->
+      <div class="top-footer">
+        <h3 class="text-light text-center">Connect with Us</h3>
+        <div class="social-icons">
+          <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="./contact.html"><i class="far fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="bottom-footer container">
+        <h4>Loco Cafe &copy; 2025</h4>
+        <a class="text-footer" 
+      href="https://pixabay.com/" 
+      title="images">Images obtained via pixabay</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
