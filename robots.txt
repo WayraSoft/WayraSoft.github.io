@@ -1,3 +1,5 @@
 # Allow all crawlers (https://www.robotstxt.org/robotstxt.html)
 User-agent: *
 Disallow:
+
+Sitemap: https://loco-cafe.onrender.com/sitemap.xml
